@@ -223,9 +223,9 @@ nav.follow {
 ABOUT
 *********************/
 
-.about-container {
-    /*background-color:#00CC99;*/
-    /*background: #484848;*/
+/*.about-container {
+    background-color:#00CC99;
+    background: #484848;
     background:white;
     height: 2400px;
     float:left;
@@ -233,7 +233,7 @@ ABOUT
     h1 {
       color:white;
       text-align: center;
-      background:#222222;
+      background: #3399FF;
       margin:0;
     }
 
@@ -258,7 +258,7 @@ ABOUT
       }
 
       h3 {
-        background:#00CC99;
+        background:#3399FF;
         color:white;
         margin-bottom: 0;
         text-align: center;
@@ -287,11 +287,6 @@ ABOUT
           height: 100px;
           width: 100px;
         }
-      }
-
-      .coffee {
-        /*background:#C2C2C2;*/
-        background: white;
       }
     }
   }
@@ -342,6 +337,50 @@ ABOUT
     }
 
     .col-three {
+      height: 600px;
+
+        
+
+      .images {
+        background: white;
+        max-width: 100%;
+            
+            h3 {
+        margin: 0;
+        float:left;
+      }
+      
+        
+        img {
+          width: 100%;
+          margin-top:0;
+          color: #FFF;
+          float:left;
+          margin-left: 0;
+        }
+
+      }
+
+      
+    
+
+      /*.design,
+      .book,
+      .travel,
+      .coffee {
+      
+        h3 {
+          text-align: center;
+          font-size: 10px;
+          margin:0;
+          color:white;
+          opacity: none;
+          background: #3399FF;
+        }
+      }
+    }
+  }
+    /*.col-three {
       background:#00CC99;
       color:white;
 
@@ -369,9 +408,9 @@ ABOUT
         background: white;
       }
     }
-  }
+  }*/
 
-  .col-four {
+  /*.col-four {
       float:left;
       height: 100px;
       width: 100%;
@@ -394,9 +433,8 @@ ABOUT
         background: white;
       }
     }
-  }
+  
     .col-five {
-      float:left;
       margin:0;
 
       h3 {
@@ -406,10 +444,9 @@ ABOUT
 
       img {
         width: 100%;
-        float:left;
       }
     }
-  
+  }*/
 
 
 
@@ -643,5 +680,204 @@ img {
     display: block;
     background: #FF3300;
     width: 100%;
+    }
+}
+
+/***********************************
+new about-container
+*************************************/
+
+.about-container {
+  width: 100%;
+  height: 5400px;
+  background: #fff;
+
+  .main-container {
+    text-align: center;
+    width: 100%;
+    height: 400px;
+    background: url("https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-frc3/v/t1.0-9/998051_10201593570103620_548917297_n.jpg?oh=4a0a512cfac6a1d7335da55335470eb7&oe=54D07673&__gda__=1422480652_f8b0f44de9e3bc74bfe5288df91afd0a")no-repeat center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    padding-top: 10%;
+    opacity: 0.5;
+    
+    h1 {
+      text-align: center;
+      color: white;
+      /*background: #222222;*/
+      border: 10px solid #fff;
+      margin-left: 35%;
+      margin-right: 35%;
+      height: 100px;
+    }
+
+    img {
+      height: 100px;
+      width: 100px;
+      margin: 0;
+    }
+  }
+
+  .info-container {
+    color: white;
+    background:#fff;
+    margin: 0;
+    height: 500px;
+
+    p {
+      color: #222222;
+      padding-left: 30%;
+      padding-right: 30%;
+      padding-top: 2%;
+
+
+      span {
+        color: #3399FF;
+      }
+
+      a {
+        text-decoration: none;
+        color: #3399FF;
+      }
+
+      img {
+      height: 70px;
+      width: 70px;
+      margin-left: 50%;
+    }
+  }
+}
+
+  .image-container {
+    background: url("http://images4.fanpop.com/image/photos/23000000/book-love-books-to-read-23017145-619-463.jpg")no-repeat center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height: 600px;
+    margin: 0;
+    opacity: 0.3;
+
+    h1 {
+      text-align: center;
+      padding: 10%;
+      margin: 0;
+    }
+  }
+
+  .container:hover {
+    opacity: 0.8;
+  }
+
+  .travel-container{
+    background: url("https://scontent-a-dfw.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/226575_2068601717186_4802771_n.jpg?oh=2ad44228bd44103339211c820eaed0b6&oe=54CEB622")no-repeat center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height: 600px;
+    margin: 0;
+    opacity: 0.3;
+
+    h1 {
+      text-align: center;
+      padding: 10%;
+      margin: 0;
+    }
+  }
+
+  .travel-container:hover {
+    opacity: 0.8;
+  }
+
+  .coffee-container{
+    background: url("http://jameskovacs.com/wp-content/uploads/WindowsLiveWriter/CoffeeandCodeComingtoCalgary_B70D/image_6.png")no-repeat center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height: 600px;
+    margin: 0;
+    opacity: 0.3;
+
+    h1 {
+      text-align: center;
+      padding: 10%;
+      margin: 0;
+    }
+  }
+
+  .coffee-container:hover {
+    opacity: 0.8;
+  }
+  .design-container{
+    background: url("http://www.furnishism.com/photos/luxury-interior-design-ideas-0.jpg")no-repeat center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height: 600px;
+    margin: 0;
+    opacity: 0.3;
+
+    h1 {
+      text-align: center;
+      padding: 10%;
+      margin: 0;
+    }
+  }
+
+  
+
+  .design-container:hover {
+    opacity: 0.8;
+  }
+
+    .end-container {
+      height: 500px;
+      background: white;
+    }
+
+    .col-two {
+      float:left;
+      height: 100px;
+      width: 100%;
+      background: white;
+
+      img{
+        width: 50px;
+        height: 50px;
+        text-align: center;
+      }
+
+      .icon-one{
+        float:left;
+        height: 100px;
+        width: 25%;
+        background-color:#808080;
+      }
+
+      .icon-two {
+        height: 100px;
+        float:left;     
+        width: 25%;
+        background-color: #C2C2C2;
+      }
+
+      .icon-three {
+        background-color:#747474;
+        height: 100px;
+        width: 25%;
+        float:left;
+      }
+      .icon-four {
+        background-color:#C7C7C7;
+        height: 100px;
+        width: 25%;
+        float:left;
+      }
     }
 }
