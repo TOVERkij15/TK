@@ -689,14 +689,14 @@ new about-container
 
 .about-container {
   width: 100%;
-  height: 5400px;
+  height: 3500px;
   background: #fff;
 
   .main-container {
     text-align: center;
     width: 100%;
     height: 400px;
-    background: url("https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-frc3/v/t1.0-9/998051_10201593570103620_548917297_n.jpg?oh=4a0a512cfac6a1d7335da55335470eb7&oe=54D07673&__gda__=1422480652_f8b0f44de9e3bc74bfe5288df91afd0a")no-repeat center; 
+    background: url("https://scontent-a-dfw.xx.fbcdn.net/hphotos-xap1/t31.0-8/135464_1806875934205_2941125_o.jpg")no-repeat center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -729,8 +729,8 @@ new about-container
 
     p {
       color: #222222;
-      padding-left: 30%;
-      padding-right: 30%;
+      padding-left: 10%;
+      padding-right: 10%;
       padding-top: 2%;
 
 
@@ -759,16 +759,20 @@ new about-container
   background-size: cover;
     height: 600px;
     margin: 0;
-    opacity: 0.3;
+    opacity: 0.4;
 
     h1 {
       text-align: center;
       padding: 10%;
       margin: 0;
+      text-decoration: underline;
+      font-family: 'Poiret One', cursive;
+      font-size: 40px;
+      color: white;
     }
   }
 
-  .container:hover {
+  .image-container:hover {
     opacity: 0.8;
   }
 
@@ -786,6 +790,11 @@ new about-container
       text-align: center;
       padding: 10%;
       margin: 0;
+      font-family: 'Poiret One', cursive;
+      font-weight: bold;
+      font-size: 80px;
+      text-decoration: underline;
+      color: white;
     }
   }
 
@@ -807,6 +816,11 @@ new about-container
       text-align: center;
       padding: 10%;
       margin: 0;
+      font-family: 'Poiret One', cursive;
+      font-weight: bold;
+      font-size: 80px;
+      text-decoration: underline;
+      color: white;
     }
   }
 
@@ -814,7 +828,7 @@ new about-container
     opacity: 0.8;
   }
   .design-container{
-    background: url("http://www.furnishism.com/photos/luxury-interior-design-ideas-0.jpg")no-repeat center; 
+    background: url("http://www.funofart.com/wp-content/uploads/2014/07/anna-casa-interior-design-005.jpg")no-repeat center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -827,6 +841,28 @@ new about-container
       text-align: center;
       padding: 10%;
       margin: 0;
+      font-family: 'Poiret One', cursive;
+      font-weight: bold;
+      font-size: 80px;
+      text-decoration: underline;
+      color: white;
+    }
+  }
+
+  .end-container {
+    text-align: center;
+    
+    h1{
+      font-size: 50px;
+    }
+
+    p{
+      font-size: 20px;
+    }
+
+    img {
+      height: 100px;
+      width: 100px;
     }
   }
 
@@ -837,21 +873,25 @@ new about-container
   }
 
     .end-container {
-      height: 500px;
       background: white;
+      height: 400px;
     }
+
+    .contact-container {
+
+
 
     .col-two {
       float:left;
-      height: 100px;
       width: 100%;
       background: white;
 
       img{
-        width: 50px;
-        height: 50px;
-        text-align: center;
-      }
+        width: 60px;
+        height: 60px;
+        margin-left: 40%; 
+        margin-top: 10px;
+        }
 
       .icon-one{
         float:left;
@@ -880,4 +920,5 @@ new about-container
         float:left;
       }
     }
+  } 
 }
