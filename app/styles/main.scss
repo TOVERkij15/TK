@@ -182,10 +182,7 @@ img {
     margin:  20px 5px;
     height: 20em;
     width: 350px;
-    border: 5px solid #CCFFFF;
-
-
-    }
+  }
 
     p {
         text-align: center;
@@ -208,12 +205,12 @@ img {
       color: black;
     }
 
-.image-one  {
+.image {
     position: relative;
     float:left;
 }
 
-.image-one  .after {
+.image  .after {
     position: absolute;
     top: 0;
     left: 0;
@@ -222,109 +219,7 @@ img {
     display: none;
     color: #222222;
 }
-.image-one:hover .after {
-    display: block;
-    background:#CCFFFF;
-    width: 100%;
-    }
-
-.image-three  {
-    position: relative;
-    float:left;
-}
-
-.image-three  .after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: none;
-    color: #222222;
-}
-.image-three:hover .after {
-    display: block;
-    background:#CCFFFF;
-    width: 100%;
-    }
-
-
-
-    .image-five {
-    position: relative;
-    float:left;
-}
-
-.image-five  .after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: none;
-    color: #222222;
-}
-.image-five:hover .after {
-    display: block;
-    background:#CCFFFF;
-    width: 100%;
-    }
-
-    .image-seven  {
-    position: relative;
-    float:left;
-}
-
-.image-seven  .after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: none;
-    color: #222222;
-}
-.image-seven:hover .after {
-    display: block;
-    background:#CCFFFF;
-    width: 100%;
-    }
-    
-
-    .image-nine  {
-    position: relative;
-    float:left;
-}
-
-.image-nine  .after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: none;
-    color: #222222;
-}
-.image-nine:hover .after {
-    display: block;
-    background:#CCFFFF;
-    width: 100%;
-    }
-    .image-ten  {
-    position: relative;
-    float:left;
-}
-
-.image-ten  .after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: none;
-    color: #222222;
-}
-.image-ten:hover .after {
+.image:hover .after {
     display: block;
     background:#CCFFFF;
     width: 100%;
@@ -332,7 +227,7 @@ img {
 }
 
 .work-container {
-  height: 400px;
+  height: 1000px;
   width: 100%;
   background-color: #222222;
   color: fff;
@@ -341,6 +236,13 @@ img {
     color: white;
     text-align: center;
     padding-top: 50px;
+  }
+
+  img {
+    width: 350px;
+    height: 400px;
+    float:left;
+    margin: 20px;
   }
 }
 
